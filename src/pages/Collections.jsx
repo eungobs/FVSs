@@ -45,12 +45,12 @@ const products = [
     price: "R220.00",
   },
   {
-    image: "https://i.pinimg.com/736x/5e/27/4f/5e274fa4335c931ce0c18aa7ccc8c817.jpg",
+    image: "https://i.pinimg.com/736x/b8/c7/7c/b8c77cc6cc5c317fa2b61b8c65073943.jpg",
     description: "Anti-Dandruff Treatment",
     price: "R218.00",
   },
   {
-    image: "https://i.pinimg.com/474x/b1/23/11/b1231195ff88ab9a1951267ed94e222f.jpg",
+    image: "https://i.pinimg.com/736x/32/cc/2d/32cc2d40dd0b23884100f921ceb52dc4.jpg",
     description: "Nourishing Hair Cream",
     price: "R116.00",
   },
@@ -70,7 +70,7 @@ const products = [
     price: "R324.00",
   },
   {
-    image: "https://i.pinimg.com/736x/fb/38/fa/fb38fa4f6877452352cdd4c1aea988fd.jpg",
+    image: "https://i.pinimg.com/736x/e1/33/da/e133da9d0f571e8e513ec3e1356cefbb.jpg",
     description: "Coconut Oil Hair Treatment",
     price: "R219.00",
   },
@@ -80,22 +80,22 @@ const products = [
     price: "R123.00",
   },
   {
-    image: "https://i.pinimg.com/736x/4d/7c/e6/4d7ce6d55592adec2ac7ae454cfdc518.jpg",
+    image: "https://i.pinimg.com/736x/08/de/66/08de66950190c381312249bf8ad54f59.jpg",
     description: "Intense Hair Repair.",
     price: "R126.00",
   },
   {
-    image: "https://i.pinimg.com/736x/e9/44/35/e94435f526f94cbd9cebdc81f32602e8.jpg",
-    description: "Volume Boosting Spray",
+    image: "https://i.pinimg.com/736x/1c/d6/6b/1cd66b866a921a4ee76ec51ec174141d.jpg",
+    description: "Anti Freez",
     price: "R215.00",
   },
   {
-    image: "https://i.pinimg.com/736x/f3/88/e3/f388e3eb0181ea2014475d5545ec7f25.jpg",
+    image: "https://i.pinimg.com/736x/9f/36/b4/9f36b485ab31c8cae4f425b024bd586d.jpg",
     description: "Frizz Ease Cream.",
     price: "R220.00",
   },
   {
-    image: "https://i.pinimg.com/736x/2c/0e/07/2c0e07e794c1980dc1b5b13b1154b27e.jpg",
+    image: "https://i.pinimg.com/736x/6d/25/94/6d25946e221b3137f76050c31d623c4f.jpg",
     description: "Silk Protein Serum",
     price: "R118.00",
   },
@@ -105,23 +105,23 @@ const products = [
     price: "R216.00",
   },
   {
-    image: "https://i.pinimg.com/736x/ae/79/8d/ae798d8f5f4132d5ab491bb254292067.jpg",
+    image: "https://i.pinimg.com/736x/64/8e/32/648e32211fda89067a24e3976dfc4d64.jpg",
     description: "Daily Moisturizing Spray",
     price: "R229.00",
   },
   {
     image: "https://i.pinimg.com/736x/f5/b7/9a/f5b79a1a0bc77c1b9cc4863d1d7ca3ab.jpg",
-    description: "New Image 1",
+    description: "Avacado Moisturize",
     price: "R155.00",
   },
   {
     image: "https://i.pinimg.com/736x/89/42/16/894216d3cca5ef8b41c0470ae99bcb78.jpg",
-    description: "New Image 2",
+    description: "Coconut Oil",
     price: "R117.00",
   },
   {
     image: "https://i.pinimg.com/736x/d5/b7/70/d5b770e81bf6e5297ee841ce99e4222d.jpg",
-    description: "New Image 3",
+    description: "Coconut Oil serum",
     price: "R210.00",
   },
 ]

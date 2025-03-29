@@ -35,7 +35,7 @@ const Shop = () => {
             onClick={handleLocationClick}
             className="location-button"
           >
-            Find Us in Ga-Moletji, Limpopo-Polokwane
+            Find Us in Moletji, Polokwane Street, Shop 03
           </Button>
         </Box>
 
@@ -44,7 +44,7 @@ const Shop = () => {
           Our Beauty Salon
         </Typography>
         <Grid container spacing={3} className="shop-images">
-          <Grid item xs={12} md={4}>
+          <Grid item xs={12} sm={4}>
             <Card className="shop-image-card">
               <CardMedia
                 component="img"
@@ -58,7 +58,7 @@ const Shop = () => {
               </Typography>
             </Card>
           </Grid>
-          <Grid item xs={12} md={4}>
+          <Grid item xs={12} sm={4}>
             <Card className="shop-image-card">
               <CardMedia
                 component="img"
@@ -72,7 +72,7 @@ const Shop = () => {
               </Typography>
             </Card>
           </Grid>
-          <Grid item xs={12} md={4}>
+          <Grid item xs={12} sm={4}>
             <Card className="shop-image-card">
               <CardMedia
                 component="img"
@@ -123,8 +123,8 @@ const Shop = () => {
               </Box>
               <Divider sx={{ mb: 2 }} />
               <Typography variant="body1" paragraph>
-                Founded by Mabotsi Mahlala in 2019, Mabotsane Beauty began as a small container salon in G-Moletshi,
-                Limpopo-Polokwane. Mabotsi was inspired by her mother, who made a living by plaiting women's hair in
+                Founded by Mabotsi Mahlala in 2019, Mabotsane Beauty began as a small container salon in Moletji,
+                Limpopo, Polokwane Street, Shop 03. Mabotsi was inspired by her mother, who made a living by plaiting women's hair in
                 their village.
               </Typography>
               <Typography variant="body1" paragraph>
@@ -188,7 +188,7 @@ const Shop = () => {
             Find Us on Google Maps
           </Button>
           <Typography variant="body1" sx={{ mt: 2 }}>
-            We're located in Ga-Moletji, Limpopo-Polokwane. Come experience the Mabotsane difference!
+            We're located in Moletji, Polokwane Street, Shop 03. Come experience the Mabotsane difference!
           </Typography>
         </Box>
       </Container>
@@ -196,7 +196,5 @@ const Shop = () => {
   )
 }
 
+
 export default Shop
-
-
-

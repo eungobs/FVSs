@@ -10,7 +10,7 @@ const wigData = [
   {
     id: 1,
     name: "Blonde Bob Wig",
-    image: "https://i.pinimg.com/736x/f9/99/e2/f999e2cf72131b233b86a35bebda8fdf.jpg",
+    image: "https://i.pinimg.com/736x/78/a4/80/78a4808db65393959002b21c474bc1e3.jpg",
     price: "R1129.99",
   },
   {
@@ -22,7 +22,7 @@ const wigData = [
   {
     id: 3,
     name: "Long Black Wig",
-    image: "https://i.pinimg.com/474x/de/bd/2e/debd2ef4ae4d52b27d4c8682fc0cfc76.jpg",
+    image: "https://i.pinimg.com/736x/d2/42/17/d24217db6aa19bd6eb423a7561292847.jpg",
     price: "R4159.99",
   },
   {
@@ -34,19 +34,19 @@ const wigData = [
   {
     id: 5,
     name: "Platinum Pixie Wig",
-    image: "https://i.pinimg.com/736x/f4/55/a5/f455a523d93e35e82118c01b1c6375d8.jpg",
+    image: "https://i.pinimg.com/736x/d6/d3/44/d6d344c1af7edba9d9ee33c117b5fbe8.jpg",
     price: "R1119.99",
   },
   {
     id: 6,
     name: "Ombre Long Wig",
-    image: "https://i.pinimg.com/736x/f9/3b/0b/f93b0b2af2c925d0360d2954639925d1.jpg",
+    image: "https://i.pinimg.com/736x/ce/2d/c0/ce2dc0e75abf529e0e3d850dbed5d541.jpg",
     price: "R3169.99",
   },
   {
     id: 7,
     name: "Auburn Lace Front",
-    image: "https://i.pinimg.com/736x/85/5a/68/855a682b0a18ea8cc4a38a0a083c80cb.jpg",
+    image: "https://i.pinimg.com/736x/64/b4/dd/64b4dd43d8e691a59f0a69ce4545489d.jpg",
     price: "R3189.99",
   },
   {
@@ -64,7 +64,7 @@ const wigData = [
   {
     id: 10,
     name: "Brunette Layered",
-    image: "https://i.pinimg.com/736x/32/89/1b/32891b311ab01cdac5b66e5437138646.jpg",
+    image: "https://i.pinimg.com/736x/23/9f/53/239f5301dd1f29ba045349da4389a4f5.jpg",
     price: "R2159.99",
   },
   {
@@ -88,7 +88,7 @@ const wigData = [
   {
     id: 14,
     name: "Short Pixie Wig",
-    image: "https://i.pinimg.com/736x/a3/53/36/a35336d4117caa1953978cdb1f46dd39.jpg",
+    image: "https://i.pinimg.com/736x/52/65/e2/5265e2cf93d8f0760059c058d3dd48ba.jpg",
     price: "R829.99",
   },
   {
@@ -124,13 +124,13 @@ const wigData = [
   {
     id: 20,
     name: "Rainbow Wig",
-    image: "https://i.pinimg.com/736x/08/f5/84/08f584d3b3b4ffb40a19a838abe042bb.jpg",
+    image: "https://i.pinimg.com/736x/8e/71/61/8e7161910487c50769aea5b7f3c5e8a4.jpg",
     price: "R3189.99",
   },
   {
     id: 21,
     name: "Braided Wig",
-    image: "https://i.pinimg.com/736x/92/a2/01/92a2012812735c338df07a0030a8bb39.jpg",
+    image: "https://i.pinimg.com/736x/15/2b/3c/152b3c54cc2fcc97948ee939cd5bcb70.jpg",
     price: "R3189.99",
   },
 ]
