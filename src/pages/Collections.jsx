@@ -15,7 +15,7 @@ import {
 } from "@mui/material"
 import WhatsAppIcon from "@mui/icons-material/WhatsApp"
 import CloseIcon from "@mui/icons-material/Close"
-import "./collections.css"
+import "./Collections.css"
 
 // Sample product data with images, descriptions, and prices
 const products = [
