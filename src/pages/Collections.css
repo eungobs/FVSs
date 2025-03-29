@@ -1,0 +1,136 @@
+/* Product image container styling */
+.product-image-container {
+  width: 100%;
+  height: 180px; /* Reduced height for smaller cards */
+  overflow: hidden;
+  position: relative;
+}
+
+.image-button {
+  width: 100% !important;
+  height: 100% !important;
+  padding: 0 !important;
+  border-radius: 0 !important;
+}
+
+.product-image-wrapper {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.product-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* This ensures the image covers the area without distortion */
+  object-position: center; /* Centers the image */
+  transition: transform 0.3s ease;
+}
+
+.product-image:hover {
+  transform: scale(1.05);
+}
+
+/* Card content styling */
+.card-content {
+  padding: 10px !important; /* Reduced padding */
+}
+
+.product-title {
+  font-size: 0.85rem !important;
+  line-height: 1.2 !important;
+  margin-bottom: 4px !important;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.product-price {
+  font-size: 0.8rem !important;
+}
+
+/* Modal image styling */
+.modal-image-container {
+  width: 100%;
+  max-height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.modal-image {
+  max-width: 100%;
+  max-height: 500px;
+  object-fit: contain; /* Use contain for the modal to show the full image */
+}
+
+/* Fix for Material UI grid item with fractional width */
+.grid-item {
+  width: 12.5% !important; /* Force 8 items per row (100% / 8) */
+  flex-basis: 12.5% !important;
+  max-width: 12.5% !important;
+}
+
+/* Responsive adjustments */
+@media (max-width: 1600px) {
+  .grid-item {
+    width: 12.5% !important;
+    flex-basis: 12.5% !important;
+    max-width: 12.5% !important;
+  }
+}
+
+@media (max-width: 1200px) {
+  .grid-item {
+    width: 16.666% !important; /* 6 per row */
+    flex-basis: 16.666% !important;
+    max-width: 16.666% !important;
+  }
+}
+
+@media (max-width: 960px) {
+  .grid-item {
+    width: 25% !important; /* 4 per row */
+    flex-basis: 25% !important;
+    max-width: 25% !important;
+  }
+
+  .product-image-container {
+    height: 160px;
+  }
+}
+
+@media (max-width: 600px) {
+  .grid-item {
+    width: 33.333% !important; /* 3 per row */
+    flex-basis: 33.333% !important;
+    max-width: 33.333% !important;
+  }
+
+  .product-image-container {
+    height: 140px;
+  }
+
+  .modal-image-container {
+    max-height: 400px;
+  }
+
+  .modal-image {
+    max-height: 400px;
+  }
+}
+
+@media (max-width: 480px) {
+  .grid-item {
+    width: 50% !important; /* 2 per row */
+    flex-basis: 50% !important;
+    max-width: 50% !important;
+  }
+}
+
+
+

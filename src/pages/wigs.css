@@ -1,0 +1,147 @@
+/* Wig image container styling */
+.wig-image-container {
+  width: 100%;
+  height: 180px; /* Fixed height for all wig images */
+  overflow: hidden;
+  position: relative;
+}
+
+.wig-image-wrapper {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.wig-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* This ensures the image covers the area without distortion */
+  object-position: center; /* Centers the image */
+  transition: transform 0.3s ease;
+}
+
+.wig-image:hover {
+  transform: scale(1.05);
+}
+
+/* Card content styling */
+.wig-card-content {
+  padding: 10px !important; /* Reduced padding */
+  padding-bottom: 40px !important; /* Space for WhatsApp button */
+}
+
+.wig-title {
+  font-size: 0.85rem !important;
+  line-height: 1.2 !important;
+  margin-bottom: 4px !important;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-weight: 500;
+}
+
+.wig-price {
+  font-size: 0.8rem !important;
+}
+
+/* WhatsApp button styling */
+.whatsapp-button {
+  position: absolute !important;
+  bottom: 5px !important;
+  right: 5px !important;
+  background-color: #25d366 !important;
+  color: white !important;
+  padding: 4px !important;
+  width: 32px !important;
+  height: 32px !important;
+  min-width: unset !important;
+}
+
+.whatsapp-button:hover {
+  background-color: #128c7e !important;
+}
+
+/* Modal image styling */
+.modal-image-container {
+  width: 100%;
+  max-height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.modal-image {
+  max-width: 100%;
+  max-height: 500px;
+  object-fit: contain; /* Use contain for the modal to show the full image */
+}
+
+/* Fix for Material UI grid item with fractional width */
+.wig-grid-item {
+  width: 12.5% !important; /* Force 8 items per row (100% / 8) */
+  flex-basis: 12.5% !important;
+  max-width: 12.5% !important;
+}
+
+/* Responsive adjustments */
+@media (max-width: 1600px) {
+  .wig-grid-item {
+    width: 12.5% !important;
+    flex-basis: 12.5% !important;
+    max-width: 12.5% !important;
+  }
+}
+
+@media (max-width: 1200px) {
+  .wig-grid-item {
+    width: 16.666% !important; /* 6 per row */
+    flex-basis: 16.666% !important;
+    max-width: 16.666% !important;
+  }
+}
+
+@media (max-width: 960px) {
+  .wig-grid-item {
+    width: 25% !important; /* 4 per row */
+    flex-basis: 25% !important;
+    max-width: 25% !important;
+  }
+
+  .wig-image-container {
+    height: 160px;
+  }
+}
+
+@media (max-width: 600px) {
+  .wig-grid-item {
+    width: 33.333% !important; /* 3 per row */
+    flex-basis: 33.333% !important;
+    max-width: 33.333% !important;
+  }
+
+  .wig-image-container {
+    height: 140px;
+  }
+
+  .modal-image-container {
+    max-height: 400px;
+  }
+
+  .modal-image {
+    max-height: 400px;
+  }
+}
+
+@media (max-width: 480px) {
+  .wig-grid-item {
+    width: 50% !important; /* 2 per row */
+    flex-basis: 50% !important;
+    max-width: 50% !important;
+  }
+}
+

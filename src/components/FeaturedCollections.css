@@ -1,0 +1,99 @@
+.featured-collections {
+  background-color: #f5e9d9;
+  padding: 60px 0;
+  text-align: center;
+}
+
+.section-title {
+  font-size: 36px !important;
+  font-weight: 300 !important;
+  color: #333;
+  margin-bottom: 15px !important;
+}
+
+.subtitle {
+  color: #666;
+  max-width: 600px;
+  margin: 0 auto 50px !important;
+  font-size: 16px !important;
+  line-height: 1.5 !important;
+}
+
+.collection-cards {
+  margin-top: 20px !important;
+}
+
+.card {
+  background-color: #fff;
+  overflow: hidden;
+  position: relative;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.card-image {
+  position: relative;
+  width: 100%;
+  padding-top: 66.25%; /* Maintain a 16:9 aspect ratio */
+  overflow: hidden;
+}
+
+.card-image img {
+    position: absolute;
+    top: -0%; /* Adjust this value as needed to see more of the image */
+    left: 50%;
+    transform: translateX(-50%);
+    width: auto; /* Change width to auto for finer control */
+    height: 100%;
+    object-fit: cover; /* Or change to 'contain' */
+}
+
+.card-content {
+  padding: 30px 20px;
+  text-align: center;
+  position: relative;
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.card-number {
+  width: 30px;
+  height: 30px;
+  background-color: #111;
+  color: #fff;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: -15px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 14px;
+}
+
+.card-content h3 {
+  margin-bottom: 15px !important;
+  font-weight: 400 !important;
+  color: #333;
+}
+
+.card-description {
+  color: #666;
+  font-size: 14px !important;
+  line-height: 1.5 !important;
+  margin-bottom: 20px !important;
+  flex-grow: 1;
+}
+
+.view-more {
+  background-color: #d4af37 !important;
+  color: #fff !important;
+  border: none !important;
+  padding: 8px 20px !important;
+  font-size: 14px !important;
+  text-transform: none !important;
+  border-radius: 0 !important;
+}

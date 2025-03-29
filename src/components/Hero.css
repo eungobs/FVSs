@@ -1,0 +1,77 @@
+.hero {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("https://i.pinimg.com/736x/f2/d4/ac/f2d4acdfe6451d93b2e467e189f39d7d.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 300px;
+  color: #fff;
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.hero-content {
+  max-width: 500px;
+}
+
+.hero-title {
+  font-size: 42px !important;
+  font-weight: 300 !important;
+  margin-bottom: 30px !important;
+}
+
+.hero-features {
+  list-style: none;
+  margin-bottom: 30px;
+}
+
+.hero-features li {
+  margin-bottom: 10px;
+  position: relative;
+  padding-left: 20px;
+}
+
+.hero-features li:before {
+  content: "•";
+  position: absolute;
+  left: 0;
+  color: #d4af37;
+}
+
+.cta-button {
+  background-color: #d4af37 !important;
+  color: #fff !important;
+  border: none !important;
+  padding: 12px 25px !important;
+  font-size: 14px !important;
+  text-transform: none !important;
+  border-radius: 0 !important;
+}
+
+.slider-dots {
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  gap: 10px;
+}
+
+.dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.5);
+  cursor: pointer;
+  display: inline-block;
+}
+
+.dot.active {
+  background-color: #fff;
+}
+
+@media (max-width: 768px) {
+  .hero-title {
+    font-size: 32px !important;
+  }
+}
+
